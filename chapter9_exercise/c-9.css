@@ -61,9 +61,20 @@ main {
 /*768px以下*/
 @media screen and (max-width: 748px) {
   main {
-    width: 100%;
+    width: 90%;
   }
   .step {
     float: none;
+    margin: 0 auto;
+    margin-bottom: 20px;
   }
+  .step:last-child {
+    margin: 0 auto;
+  }
+
+  .content {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
 }
