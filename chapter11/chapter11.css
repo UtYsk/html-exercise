@@ -272,7 +272,6 @@ a {
 	height: 60px;
 	margin: 0 auto;
 	text-align: center;
-
 }
 .icon i {
 	float: left;
@@ -308,7 +307,7 @@ a {
 }
 .profile-text {
 	text-align: center;
-	margin: 30px 0;
+	margin: 30px auto;
 }
 .profile-bottom {
 	width: 1024px;
@@ -509,7 +508,9 @@ footer {
 		float: none;
 		margin: 0 auto;
 		padding-bottom: 10px;
-
+	}
+	.profile-text {
+		width: 90%;
 	}
 	.strength-box:nth-child(3) {
 		padding-bottom: 90px;
@@ -521,6 +522,8 @@ footer {
 	.profile-bottom-left {
 		float: none;
 		margin: 0 auto;
+		width: 100%;
+		display: inline-block;
 	}
 	.profile-img {
 		margin: 0 auto;
@@ -529,10 +532,12 @@ footer {
 	.profile-bottom-right {
 		float: none;
 		margin: 0 auto;
+		display: inline-block;
+		width: 100%;
 	}
 	.profile-name {
 		text-align: center;
-		display: block;
+		display: inline-block;
 		margin: 0 auto;
 	}
 	.profile-name-title {
@@ -541,12 +546,14 @@ footer {
 	}
 	.profile-skills {
 		text-align: center;
-		display: block;
+		display: inline-block;
 		margin: 0 auto;
+		width: 100%;
 	}
 	.profile-skills-title {
 		padding-top: 20px;
 		padding-bottom: 5px;
+		margin: 0 auto;
 	}
 	.contact {
 		width: 90%;
@@ -565,11 +572,13 @@ footer {
 		float: none;
 		margin: 0 auto;
 		text-align: center;
+		width: 90%;
 	}
 	.contact-bottom-right {
 		float: none;
 		margin: 0 auto;
 		text-align: center;
+		width: 90%;
 	}
 	.sns-title {
 		padding-top: 20px;
@@ -577,6 +586,7 @@ footer {
 	}
 	.sns-icon i {
 		float: none;
+		margin-right: 5px;
 	}
 	.fab fa-instagram {
 		text-align: center;
@@ -589,7 +599,7 @@ footer {
 	}
 	footer {
 		font-size: 16px;
-		height: 60px;
-		line-height: 60px;
+		height: 50px;
+		line-height: 50px;
 	}
 }
